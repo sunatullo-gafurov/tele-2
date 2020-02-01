@@ -8,10 +8,9 @@
  }
  .lists {
    display: flex;
-   justify-content: cente;
    border-bottom: 1px solid grey;
    border-top: 1px solid grey;
-   height: 35vh;
+   height: 25vh;
  }
 .list {
   display: flex;
@@ -68,7 +67,6 @@
 .minutes-unit {
   font-size: 20px;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
