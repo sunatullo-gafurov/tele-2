@@ -12,13 +12,13 @@ export default function Tele2(props) {
                         <div className="per-currency">
                             <span className="currency">{currency}</span> <span className="usage-limit">{usageLimit}</span>
                         </div>
-                        <span>{hit.map(i => <img className="hit" src={i} />)}</span>
+                        <span>{hit.map(i => <img className="hit" src={i} alt="" />)}</span>
                     </div>
                 </div>
                 <div className="list">
                     <span className="list-span internet">{internet} <span className="internet-unit">{internetUnit}</span></span>
                     <span className="list-span internet-text">{internetText}</span>
-                    <span className="list-span logos">{logos.map(logo => <img className="logo" src={logo}/>)}</span>
+                    <span className="list-span logos">{logos.map(logo => <img className="logo" src={logo} alt="social" />)}</span>
                     <span className="list-span roaming">{roaming}</span>
                 </div>
                 <div className="list">
