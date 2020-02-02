@@ -188,7 +188,7 @@ function App() {
   return (
     <div className="App">
       <h1>Тарифы</h1>
-      {tariffs.map(tariff => <Tariff title={tariff.title} priceText={tariff.priceText} price={tariff.price} currency={tariff.currency} usageLimit={tariff.usageLimit} hit={tariff.hit} internet={tariff.internet} internetUnit={tariff.internetUnit} internetText={tariff.internetText} logos={tariff.logos} roaming={tariff.roaming} minutes={tariff.minutes} minutesUnit={tariff.minutesUnit} minutesText={tariff.minutesText} messages={tariff.messages} messagesText={tariff.messagesText} />)}
+      {tariffs.map(tariff => <Tariff {...tariff} />)}
     </div>
   );
 }
