@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd04c8675887bbdef909f9b245d5ac9a",
+    "revision": "b1814dd06242ca654e77eb67b1e90855",
     "url": "/tele-2/index.html"
   },
   {
-    "revision": "6b3a15a6b89ceace6153",
-    "url": "/tele-2/static/css/main.5e734560.chunk.css"
+    "revision": "043774f7a1c510afe8e0",
+    "url": "/tele-2/static/css/main.ff81f126.chunk.css"
   },
   {
     "revision": "2a8cf8c1943b2477aa5f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tele-2/static/js/2.1223c010.chunk.js.LICENSE"
   },
   {
-    "revision": "6b3a15a6b89ceace6153",
-    "url": "/tele-2/static/js/main.477fae18.chunk.js"
+    "revision": "043774f7a1c510afe8e0",
+    "url": "/tele-2/static/js/main.328c612c.chunk.js"
   },
   {
     "revision": "fbb14b58b4f698c3c359",
