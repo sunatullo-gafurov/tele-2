@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Tele2(props) {
+export default function Tariff(props) {
     const {title, priceText, price, currency, usageLimit, hit, internet, internetUnit, internetText, logos, roaming, minutes, minutesUnit, minutesText, messages, messagesText} = props;
     return (
         <div className="lists">
